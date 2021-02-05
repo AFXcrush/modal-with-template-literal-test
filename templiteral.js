@@ -17,7 +17,9 @@ function gal1(tempgal){
 
 function mod(tempgal){
     return `
-    <iframe id="id${tempgal.imgn}" class="modal-window" src="modals/${tempgal.link}.html" frameborder="0"></iframe>
+<div id="id${tempgal.imgn}" class="modal-window">
+    <iframe class="modal-wrap" src="modals/${tempgal.link}.html" frameborder="0"></iframe>
+</div>
     `
 }
 
