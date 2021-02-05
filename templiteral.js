@@ -11,7 +11,7 @@ const TEMPLIT = [
 
 function gal1(tempgal){
     return `
-    <img id="btn${tempgal.imgn}" src="https://github.com/AFXcrush/modal-with-template-literal-test/blob/gh-pages/${tempgal.imgn}.JPG">
+    <img id="btn${tempgal.imgn}" src="${tempgal.imgn}.JPG">
     `
 }
 
